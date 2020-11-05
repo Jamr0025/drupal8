@@ -1,0 +1,20 @@
+uuid: 45f7f77d-6a5e-405b-97df-a2b2db0537e5
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categorias_post
+  module:
+    - text
+id: taxonomy_term.categorias_post.description
+field_name: description
+entity_type: taxonomy_term
+bundle: categorias_post
+label: Descripción
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

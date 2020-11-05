@@ -1,0 +1,18 @@
+uuid: 693a7ac2-c88c-4d30-886a-66e4f4e11809
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.ingredientes
+id: taxonomy_term.ingredientes.name
+field_name: name
+entity_type: taxonomy_term
+bundle: ingredientes
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

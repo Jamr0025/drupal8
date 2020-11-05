@@ -1,0 +1,20 @@
+uuid: 0ec906ae-b5b0-4231-80cc-b7e07a4fee2f
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_etiqueta_libro
+field_name: field_etiqueta_libro
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

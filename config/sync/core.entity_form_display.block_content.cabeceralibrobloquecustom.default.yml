@@ -1,0 +1,51 @@
+uuid: ef105134-81b4-4701-97a6-e7385d68d3da
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.cabeceralibrobloquecustom
+    - field.field.block_content.cabeceralibrobloquecustom.body
+    - field.field.block_content.cabeceralibrobloquecustom.field_imagencabecera
+    - image.style.thumbnail
+  module:
+    - image
+    - text
+id: block_content.cabeceralibrobloquecustom.default
+targetEntityType: block_content
+bundle: cabeceralibrobloquecustom
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  field_imagencabecera:
+    weight: 27
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

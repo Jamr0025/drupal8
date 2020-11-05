@@ -1,0 +1,9 @@
+uuid: 21413d0a-19b5-4757-8339-22eb2f540d70
+langcode: es
+status: true
+dependencies: {  }
+id: fr-ma
+label: frances.marruecos
+direction: ltr
+weight: 4
+locked: false

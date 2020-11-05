@@ -1,0 +1,30 @@
+uuid: ce6354cf-bb0f-442a-bcfa-f6e3af77dc6e
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+    - file
+    - image
+id: block_content.field_imagencabecera
+field_name: field_imagencabecera
+entity_type: block_content
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

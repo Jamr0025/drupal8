@@ -1,0 +1,12 @@
+display:
+  default:
+    display_options:
+      header:
+        area:
+          content:
+            value: "<p><a class=\"btn btn-primary\" href=\"node/add/tienda\">anadirIngles </a></p>\r\n"
+            format: full_html
+        area_1:
+          content:
+            value: "<p><a class=\"btn btn-primary\" href=\"tiendasexport\">DescargarCSVIngles </a></p>\r\n"
+            format: full_html

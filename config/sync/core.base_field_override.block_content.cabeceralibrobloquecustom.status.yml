@@ -1,0 +1,22 @@
+uuid: 6aff4d4d-c5de-4822-a8b4-5609a97af6d4
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.cabeceralibrobloquecustom
+id: block_content.cabeceralibrobloquecustom.status
+field_name: status
+entity_type: block_content
+bundle: cabeceralibrobloquecustom
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

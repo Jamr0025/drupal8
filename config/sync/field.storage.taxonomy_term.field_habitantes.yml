@@ -1,0 +1,20 @@
+uuid: ded3bc5b-0547-4937-8d4f-9d7f9d13d870
+langcode: es
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.field_habitantes
+field_name: field_habitantes
+entity_type: taxonomy_term
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

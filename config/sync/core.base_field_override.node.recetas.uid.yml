@@ -1,0 +1,20 @@
+uuid: 566559c9-85ef-4ea2-86c3-fdff5f6cfbbc
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.recetas
+id: node.recetas.uid
+field_name: uid
+entity_type: node
+bundle: recetas
+label: 'Escrito por'
+description: 'El nombre de usuario del autor del contenido.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

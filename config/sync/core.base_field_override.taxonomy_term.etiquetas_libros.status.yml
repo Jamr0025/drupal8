@@ -1,0 +1,22 @@
+uuid: 3eca859e-bc14-4e95-a1f9-1945d5619d0e
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.etiquetas_libros
+id: taxonomy_term.etiquetas_libros.status
+field_name: status
+entity_type: taxonomy_term
+bundle: etiquetas_libros
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

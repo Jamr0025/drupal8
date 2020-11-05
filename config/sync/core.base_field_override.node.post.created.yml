@@ -1,0 +1,18 @@
+uuid: 3e4bfac5-abd2-4f25-8a2a-93630555827d
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.post
+id: node.post.created
+field_name: created
+entity_type: node
+bundle: post
+label: Fecha
+description: 'La fecha en que el nodo fue creado.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

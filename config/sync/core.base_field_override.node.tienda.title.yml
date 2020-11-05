@@ -1,0 +1,18 @@
+uuid: 0df16871-300d-49b1-bd40-a759c14bae3f
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.tienda
+id: node.tienda.title
+field_name: title
+entity_type: node
+bundle: tienda
+label: tituloTienda
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

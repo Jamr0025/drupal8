@@ -1,0 +1,8 @@
+uuid: 2a3a4366-bcd5-4542-864d-f6219ba13fde
+langcode: es
+status: true
+dependencies: {  }
+id: formatoprimeravista
+label: formatoPrimeraVista
+locked: false
+pattern: 'F j, Y, g:i a'

@@ -1,0 +1,22 @@
+uuid: a07c0889-b601-4446-8381-d7cb2d70ae34
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.multimedia
+id: block_content.multimedia.status
+field_name: status
+entity_type: block_content
+bundle: multimedia
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

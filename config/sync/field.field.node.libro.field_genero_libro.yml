@@ -1,0 +1,29 @@
+uuid: 76c49367-d4ad-47dd-abf0-52ad57e12e92
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_genero_libro
+    - node.type.libro
+    - taxonomy.vocabulary.genero_libros
+id: node.libro.field_genero_libro
+field_name: field_genero_libro
+entity_type: node
+bundle: libro
+label: 'Genero Libro'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      genero_libros: genero_libros
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,20 @@
+uuid: 45da6bc6-de1a-4030-b60b-7425dc5d8936
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.genero_libros
+  module:
+    - path
+id: taxonomy_term.genero_libros.path
+field_name: path
+entity_type: taxonomy_term
+bundle: genero_libros
+label: 'Alias de URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

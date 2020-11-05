@@ -1,0 +1,19 @@
+uuid: 39af31d4-e184-4b05-8bd4-5ec36eb78551
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripciontienda
+    - node.type.tienda
+id: node.tienda.field_descripciontienda
+field_name: field_descripciontienda
+entity_type: node
+bundle: tienda
+label: descripcionTienda
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

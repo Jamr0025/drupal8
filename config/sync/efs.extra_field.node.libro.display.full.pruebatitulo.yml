@@ -1,0 +1,14 @@
+uuid: f7e2fc5f-a4e9-4241-a4c9-e7cdde29668a
+langcode: es
+status: true
+dependencies: {  }
+id: node.libro.display.full.pruebatitulo
+label: PruebaTitulo
+field_name: pruebatitulo
+entity_type: node
+bundle: libro
+context: display
+mode: full
+plugin: entity_label
+weight: null
+settings: {  }

@@ -1,0 +1,14 @@
+uuid: 2d6f991b-46a0-49a3-984b-7eabe2d7ff3c
+langcode: es
+status: true
+dependencies: {  }
+id: node.tienda.display.default.titulotienda
+label: TituloTienda
+field_name: titulotienda
+entity_type: node
+bundle: tienda
+context: display
+mode: default
+plugin: entity_label
+weight: null
+settings: {  }

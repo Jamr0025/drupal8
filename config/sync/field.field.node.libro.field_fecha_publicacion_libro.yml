@@ -1,0 +1,21 @@
+uuid: f4dee863-28ae-4ca5-94e0-5fe1c4107686
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fecha_publicacion_libro
+    - node.type.libro
+  module:
+    - datetime
+id: node.libro.field_fecha_publicacion_libro
+field_name: field_fecha_publicacion_libro
+entity_type: node
+bundle: libro
+label: 'Fecha publicacion libro'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

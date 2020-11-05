@@ -1,0 +1,18 @@
+uuid: c21a7452-5256-43a5-abe4-b8d74a5760fa
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categorias_post
+id: taxonomy_term.categorias_post.name
+field_name: name
+entity_type: taxonomy_term
+bundle: categorias_post
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

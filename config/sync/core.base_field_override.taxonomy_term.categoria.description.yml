@@ -1,0 +1,20 @@
+uuid: b2bea874-6886-40c9-8973-1aca14b9b897
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categoria
+  module:
+    - text
+id: taxonomy_term.categoria.description
+field_name: description
+entity_type: taxonomy_term
+bundle: categoria
+label: Descripción
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

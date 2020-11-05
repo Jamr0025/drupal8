@@ -1,0 +1,22 @@
+uuid: 9f55ed84-8595-4a96-b439-d5b60678a630
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.libro
+id: node.libro.sticky
+field_name: sticky
+entity_type: node
+bundle: libro
+label: 'Fijo al comienzo de las listas'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

@@ -1,0 +1,22 @@
+uuid: 468dc726-e15c-4c38-8be5-99be76c408e4
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categorias_post
+id: taxonomy_term.categorias_post.status
+field_name: status
+entity_type: taxonomy_term
+bundle: categorias_post
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

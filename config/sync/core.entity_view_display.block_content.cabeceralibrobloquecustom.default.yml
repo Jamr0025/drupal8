@@ -1,0 +1,33 @@
+uuid: 0c41abec-c509-4d80-9fda-0249d7e9c4e9
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.cabeceralibrobloquecustom
+    - field.field.block_content.cabeceralibrobloquecustom.body
+    - field.field.block_content.cabeceralibrobloquecustom.field_imagencabecera
+    - image.style.cabecera
+  module:
+    - image
+id: block_content.cabeceralibrobloquecustom.default
+targetEntityType: block_content
+bundle: cabeceralibrobloquecustom
+mode: default
+content:
+  field_imagencabecera:
+    weight: 1
+    label: above
+    settings:
+      image_style: cabecera
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  titulocabecexa_default:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  langcode: true

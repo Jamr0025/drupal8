@@ -1,0 +1,18 @@
+uuid: d9656ed7-2de8-4cad-976a-2d29b5c01fd9
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.recetas
+id: node.recetas.changed
+field_name: changed
+entity_type: node
+bundle: recetas
+label: Modificado
+description: 'La fecha en que el nodo fue editado por última vez.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

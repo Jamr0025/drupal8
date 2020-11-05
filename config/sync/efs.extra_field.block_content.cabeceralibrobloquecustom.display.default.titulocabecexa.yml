@@ -1,0 +1,14 @@
+uuid: cc4c7242-c30c-471f-96ff-bcd7bb367bb0
+langcode: es
+status: true
+dependencies: {  }
+id: block_content.cabeceralibrobloquecustom.display.default.titulocabecexa
+label: TituloCabecexa
+field_name: titulocabecexa
+entity_type: block_content
+bundle: cabeceralibrobloquecustom
+context: display
+mode: default
+plugin: entity_label
+weight: null
+settings: {  }

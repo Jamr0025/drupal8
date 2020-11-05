@@ -1,0 +1,23 @@
+uuid: 1ebbdeb1-834c-48f7-8a0a-4b689247b054
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_web
+    - node.type.libro
+  module:
+    - link
+id: node.libro.field_web
+field_name: field_web
+entity_type: node
+bundle: libro
+label: Web
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

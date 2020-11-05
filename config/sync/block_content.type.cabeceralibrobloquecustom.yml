@@ -1,0 +1,8 @@
+uuid: 3bf891cc-8da2-42ed-ba81-ace00ff8e2df
+langcode: es
+status: true
+dependencies: {  }
+id: cabeceralibrobloquecustom
+label: CabeceraLibroBloqueCustom
+revision: 0
+description: ''

@@ -1,0 +1,20 @@
+uuid: bef1514a-49ae-4ffa-b2d4-356d8cc41123
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.etiquetas_libros
+  module:
+    - path
+id: taxonomy_term.etiquetas_libros.path
+field_name: path
+entity_type: taxonomy_term
+bundle: etiquetas_libros
+label: 'Alias de URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

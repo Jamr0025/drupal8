@@ -1,0 +1,22 @@
+uuid: 01cf2354-2fc8-45cb-a2df-ca21f46fdb9b
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.pais
+id: taxonomy_term.pais.status
+field_name: status
+entity_type: taxonomy_term
+bundle: pais
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

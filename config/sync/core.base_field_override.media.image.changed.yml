@@ -1,0 +1,18 @@
+uuid: c0490c98-3df1-43af-afb8-2c2c9831a0c8
+langcode: es
+status: true
+dependencies:
+  config:
+    - media.type.image
+id: media.image.changed
+field_name: changed
+entity_type: media
+bundle: image
+label: Modificado
+description: 'El momento en el cual el elemento multimedia fue editado por última vez.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed
