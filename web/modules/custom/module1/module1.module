@@ -1,0 +1,62 @@
+<?php
+/**
+*IMPLEMET Help hook
+ * se ejecuta unicamente en el listado de los modulos
+*/
+function module1_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match) {
+  switch ($route_name) {
+
+  // Main module help for the block module.
+  case 'help.page.module1':
+    return '<p>Entra amigo </p>';
+
+  }
+}
+
+/**
+ *IMPLEMET page hook
+ * se ejecuta antes de renderizar cada pagina
+ */
+function module1_page_attachments(array &$page) {
+
+  // Youtube Embed Code
+  $meta_robots = [
+    '#tag' => 'script',
+    '#attributes' => [
+      'src' => "https://www.youtube.com/player_api",
+      'async' => TRUE,
+    ],
+  ];
+  $page['#attached']['html_head'][] = [$meta_robots, 'youtube_script'];
+}
+
+/**
+ *IMPLEMET cron hook
+ * se ejecuta cada cierto tiempo o cuando le damos al boton de ( configuracion -> sistema->cron)
+ */
+function module1_cron() {
+
+  \Drupal::logger( 'module1')->info( 'Esto esta funcionando amijo');
+}
+
+/**
+ *IMPLEMET theme hook
+ * esto solo se ejecuta cuando se limpia cache
+ */
+function module1_theme($existing, $type, $theme, $path) {
+  return array(
+    'post_list' => array(
+      'variables' => array(
+        'post1' => "Post 1",
+        'post2' => "Post 2",
+        'post3' => "Post 3",
+        'post4' => "Post 4",
+        'title' => "Our post title",
+      ),
+      //'theme' =>'otro html diferente' e ira a este
+    )
+  );
+}
+
+
+?>

@@ -1,0 +1,15 @@
+module1.time:
+  path: '/module1/time'
+  defaults:
+    _controller: '\Drupal\module1\Controller\Module1Controller::render'
+    _tittle: 'Time Controller'
+  requirements:
+    _permission: 'acces content'
+
+module1.twig:
+  path: '/module1/twig'
+  defaults:
+    _controller: '\Drupal\module1\Controller\Module1Controller::renderTwig'
+    _tittle: 'twig Controller'
+  requirements:
+    _permission: 'acces content'
