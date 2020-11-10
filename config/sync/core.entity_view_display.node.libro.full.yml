@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.libro.field_fechapublicacionreal
     - field.field.node.libro.field_genero_libro
     - field.field.node.libro.field_imagenlibro
+    - field.field.node.libro.field_pruebawidget2
     - field.field.node.libro.field_subtitle
     - field.field.node.libro.field_web
     - node.type.libro
@@ -367,6 +368,26 @@ third_party_settings:
               id: 'extra_field_block:node:libro:titulo_teaser'
             additional: {  }
             weight: 10
+          1f577b82-4edf-4915-945f-ab74f9150578:
+            uuid: 1f577b82-4edf-4915-945f-ab74f9150578
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:node:libro:title_default'
+            additional: {  }
+            weight: 11
+          639c2da0-388e-4055-8d60-602e79b69884:
+            uuid: 639c2da0-388e-4055-8d60-602e79b69884
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:node:libro:titulo_teaser'
+            additional: {  }
+            weight: 12
         third_party_settings: {  }
       -
         layout_id: layout_onecol
@@ -828,5 +849,6 @@ content:
     region: first
 hidden:
   field_fechapublicacionreal: true
+  field_pruebawidget2: true
   langcode: true
   published_at: true

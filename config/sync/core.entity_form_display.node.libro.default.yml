@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.libro.field_fechapublicacionreal
     - field.field.node.libro.field_genero_libro
     - field.field.node.libro.field_imagenlibro
+    - field.field.node.libro.field_pruebawidget2
     - field.field.node.libro.field_subtitle
     - field.field.node.libro.field_web
     - node.type.libro
@@ -87,6 +88,14 @@ content:
     settings:
       media_types: {  }
     third_party_settings: {  }
+    region: content
+  field_pruebawidget2:
+    weight: 130
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   field_subtitle:
     weight: 122

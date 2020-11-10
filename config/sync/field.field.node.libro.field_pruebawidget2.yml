@@ -1,0 +1,19 @@
+uuid: 8a114ada-059a-4984-ba39-7f149849c4a3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pruebawidget2
+    - node.type.libro
+id: node.libro.field_pruebawidget2
+field_name: field_pruebawidget2
+entity_type: node
+bundle: libro
+label: Prueba
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

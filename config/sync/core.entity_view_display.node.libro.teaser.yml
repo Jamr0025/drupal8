@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.libro.field_fechapublicacionreal
     - field.field.node.libro.field_genero_libro
     - field.field.node.libro.field_imagenlibro
+    - field.field.node.libro.field_pruebawidget2
     - field.field.node.libro.field_subtitle
     - field.field.node.libro.field_web
     - node.type.libro
@@ -51,6 +52,7 @@ hidden:
   field_fechapublicacionreal: true
   field_genero_libro: true
   field_imagenlibro: true
+  field_pruebawidget2: true
   field_web: true
   langcode: true
   links: true
