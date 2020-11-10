@@ -1,0 +1,6 @@
+services:
+  jsonplaceholder.jsonplaceholder_client:
+    class: Drupal\jsonplaceholder\jsonplaceholderClient
+    arguments: ['@http_client_factory']
+    tags:
+      - { name: persist }

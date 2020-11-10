@@ -1,0 +1,17 @@
+<?php
+/**
+*IMPLEMET theme hook
+* esto solo se ejecuta cuando se limpia cache
+*/
+function jsonplaceholder_theme()
+{
+  return [
+    'jsonplaceholder_posts'=> [
+      'variables' =>[
+        'title' => NULL,
+        'items' => [],
+      ],
+    ],
+  ];
+
+}
